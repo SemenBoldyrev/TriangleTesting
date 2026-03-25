@@ -85,7 +85,7 @@ class TriangleTest {
     {
         try
         {
-            Triangle trg = new Triangle(a,b,c);
+            new Triangle(a,b,c);
             assertTrue(expected);
             System.out.println("Triangle successfully created with parameters '" + String.valueOf(a) + ", " + String.valueOf(b) + ", " + String.valueOf(c) + "'!");
         } catch (Exception e) {
